@@ -94,7 +94,7 @@ The application will open in your default web browser at `http://localhost:8501`
 1. **Select a structure type** — Use the sidebar dropdown to choose the infrastructure category (Pipeline, Bridge, Tunnel, or Industrial Structure).
 2. **Upload an image** — Click the file uploader and select a JPG, JPEG, or PNG inspection image.
 3. **Adjust thresholds** — Use the sidebar sliders to tune Canny edge detection thresholds, HSV corrosion colour ranges (hue, saturation, brightness), and experimental linear-anomaly parameters (minimum contour area, elongation ratio, maximum candidate area).
-4. **Analyze** — Click the **Analyze Inspection Image** button to run the processing pipeline.
+4. **Automatic processing** — The application reruns the processing pipeline automatically after an image is uploaded or a setting is changed.
 5. **Review masks and metrics** — Examine the original image, contrast-enhanced grayscale, edge map, corrosion candidate mask, annotated corrosion overlay, dark linear-feature mask, and annotated linear-anomaly candidates alongside their respective metric tables.
 6. **Read the summary** — The Preliminary Inspection Summary consolidates all key results, the corrosion-based review priority, and the recommended next action.
 7. **Download the report** — Click the download button to save a timestamped plain-text inspection report for your records.
